@@ -1,14 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
+ 
 
   body {
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
+    color: white;
   }
 `;
+export default GlobalStyles;
